@@ -1,0 +1,19 @@
+:root {
+  font-size: 60%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, input, button, textarea, select {
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+body {
+  background: #ebf2f5;
+}
