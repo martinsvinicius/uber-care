@@ -24,17 +24,17 @@ const UberCare: React.FC = () => {
               <p>Cadastre-se agora</p>
 
               <div className="inputs">
-                <Input placeholder="E-mail" type="email" required={true} autoComplete={"none"} />
+                <Input placeholder="E-mail" type="email" required={true} autoComplete="none" />
                 <span className="divisor"></span>
-                <Input placeholder="Nome completo" type="text" required={true} autoComplete={"none"} />
-                <Input placeholder="Telefone" type="text" required={true} autoComplete={"none"} />
+                <Input placeholder="Nome completo" type="text" required={true} autoComplete="none" />
+                <Input placeholder="Telefone" type="text" required={true} autoComplete="none" />
                 <Input placeholder="Criar Senha" type="password" required={true} min={6} />
                 <span className="divisor"></span>
-                <Input placeholder="Cidade" type="text" required={true} autoComplete={"none"} />
+                <Input placeholder="Cidade" type="text" required={true} autoComplete="none" />
               </div>
 
               <div className="btn">
-                <Button to="/" text="Avançar" iconURL={nextIcon} iconALT={"Próximo"} />
+                <Button to="/" text="Avançar" iconURL={nextIcon} iconALT="Próximo" />
               </div>
             </Form>
           </div>

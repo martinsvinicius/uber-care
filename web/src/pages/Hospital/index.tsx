@@ -33,7 +33,7 @@ const Hospital: React.FC = () => {
               </div>
 
               <div className="btn">
-                <Button to="/" text="Avançar" iconURL={nextIcon} iconALT={"Próximo"} />
+                <Button to="/" text="Avançar" iconURL={nextIcon} iconALT="Próximo" />
               </div>
             </Form>
           </div>
