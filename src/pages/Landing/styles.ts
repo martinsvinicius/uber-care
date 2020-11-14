@@ -82,7 +82,7 @@ export const HeroImage = styled.div`
     position: absolute;
     bottom: 0;
     right: 0;
-    
+    max-height: 1000px;
     width: 55%;
   }
 `;

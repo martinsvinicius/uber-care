@@ -14,13 +14,13 @@ export const Content = styled.div`
   height: 100%;
 
   .logoImage {
-    margin-top: 6em;
-    margin-left: 8em;
+    margin: 6em 11.5em 0 11.5em;
   }
 
   .flex {
     display: flex;
-    padding: 3.5em 8em;
+    padding: 3.5em;
+    margin: 0 8em;
     margin-top: 3em;
     align-items: center;
     justify-content: space-between;

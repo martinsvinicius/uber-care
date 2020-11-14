@@ -7,7 +7,7 @@ const HospitalContent: React.FC = () => {
   return (
     <Container>
       <span>
-        Participe <br /> do UberCare
+        Participe do <br /> UberCare
       </span>
 
       <p>Receba ajuda com o transporte de seus pacientes.</p>
