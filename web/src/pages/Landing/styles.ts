@@ -27,18 +27,48 @@ export const HeroInfo = styled.div`
   }
 `;
 
-export const Aba = styled.div`
-  margin-top: 5em;
+interface AbaProps {
+  active: Number;
+}
 
-  .box {
-    background: #fff;
-    margin: auto;
-    width: 60%;
+export const Aba = styled.div<AbaProps>`
+  margin-top: 5em !important;
+  background: #fff;
+  margin: auto;
+  width: 55%;
 
-    .bar {
-      background: #fafafa;
-      display: flex;
-      justify-content: space-between;
+  .bar {
+    background: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    max-height: 6.8em;
+  }
+
+  .ambulanciaElement {
+    text-align: center;
+    padding: 1em;
+    margin: 0.2em 0;
+    margin-left: 3em;
+    border-bottom: ${(props) => (props.active === 1 && ("4px solid #000000"))};
+    cursor: pointer;
+
+    p {
+      margin-top: 0.4em;
+      font-weight: bold;
+    }
+  }
+
+  .hospitalElement {
+    text-align: center;
+    padding: 1em;
+    margin: 0.2em 0;
+    margin-right: 3em;
+    border-bottom: ${(props) => (props.active === 2 && ("4px solid #000000"))};
+    cursor: pointer;
+
+    p {
+      margin-top: 0.4em;
+      font-weight: bold;
     }
   }
 `;
@@ -47,4 +77,12 @@ export const HeroImage = styled.div`
   height: 100vh;
   width: 50%;
   background: #00a7dc;
+
+  img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 900px;
+    margin-right: -3.8em;
+  }
 `;
