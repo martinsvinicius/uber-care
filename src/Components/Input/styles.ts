@@ -12,7 +12,6 @@ export const Container = styled.input<InputProps>`
   background: ${(props) => props.backgroundColor ? props.backgroundColor : "#FFFFFF"};
   padding: 1.4em;
   font-size: 14px;
-  color: #BABABA;
   font-weight: normal;
 
   :hover {

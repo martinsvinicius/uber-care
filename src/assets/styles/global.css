@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Uber-Regular;
+  src: url('../fonts/uber/UberMove-Regular.TTF');
+}
+
 :root {
   font-size: 60%;
 }
@@ -9,7 +14,7 @@
 }
 
 body, input, button, textarea, select {
-  font-family: Arial, sans-serif;
+  font-family: Uber-Regular, Arial, sans-serif;
   font-weight: 500;
   font-size: 1.6rem;
 }
